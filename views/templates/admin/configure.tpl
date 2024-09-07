@@ -24,25 +24,17 @@
 *}
 
 <div class="panel">
-	<h3><i class="icon icon-credit-card"></i> {l s='show voucher under price ' mod='addvoucher'}</h3>
+	<h3><i class="icon icon-credit-card"></i> {l s='This module add delivery note to pdf files' mod='addnotepdf'}</h3>
 	<p>
-		<strong>{l s='Here is my new generic module!' mod='addvoucher'}</strong><br />
-		{l s='Thanks to PrestaShop, now I have a great module.' mod='addvoucher'}<br />
-		{l s='I can configure it using the following configuration form.' mod='addvoucher'}
+		<h5>
+			Contact for customizations
+		</h5>
+
+		<a href="https://www.fiverr.com/shoaibktk/"> Link to my services on FIVERR </a>
+		<br>
+		<strong>{l s='Developed by iamshoaibktk@gmail.com' mod='addnotepdf'}</strong><br />
+		<strong>{l s='Whatsapp +923459016286' mod='addnotepdf'}</strong><br />
+
 	</p>
 	<br />
-	<p>
-		{l s='This module will boost your sales!' mod='addvoucher'}
-	</p>
-</div>
-
-<div class="panel">
-	<h3><i class="icon icon-tags"></i> {l s='Documentation' mod='addvoucher'}</h3>
-	<p>
-		&raquo; {l s='You can get a PDF documentation to configure this module' mod='addvoucher'} :
-		<ul>
-			<li><a href="#" target="_blank">{l s='English' mod='addvoucher'}</a></li>
-			<li><a href="#" target="_blank">{l s='French' mod='addvoucher'}</a></li>
-		</ul>
-	</p>
 </div>
