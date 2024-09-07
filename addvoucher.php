@@ -64,7 +64,8 @@ class Addvoucher extends Module
         return parent::install() &&
             $this->registerHook('header') &&
             $this->registerHook('displayBackOfficeHeader') &&
-            $this->registerHook('displayProductListReviews');
+            $this->registerHook('displayProductListReviews') && 
+            $this->registerHook('displayProductPriceBlock');
     }
 
     public function uninstall()
@@ -217,8 +218,9 @@ class Addvoucher extends Module
         $this->context->controller->addCSS($this->_path.'/views/css/front.css');
     }
 
-    public function hookDisplayProductListReviews()
+    public function hookDisplayProductPriceBlock($params)
     {
+        return $this->display(__FILE__, 'views/templates/hook/addvoucher.tpl');
         /* Place your code here. */
     }
 }
